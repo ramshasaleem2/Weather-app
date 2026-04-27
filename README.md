@@ -1,16 +1,85 @@
-# React + Vite
+## 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather Application built with React.js that fetches real-time weather data using the OpenWeatherMap API. API requests were tested and verified using Thunder Client for accuracy and debugging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- 🔍 Search weather by city name
+- 🌡️ Displays temperature, humidity, and weather conditions
+- 🌍 Real-time data from OpenWeatherMap API
+- ⚡ Fast and optimized performance with Vite
+- 📱 Fully responsive UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- Frontend: React.js
+- Styling: Tailwind CSS / CSS
+- Build Tool: Vite
+- API: OpenWeatherMap API
+- API Testing Tool: Thunder Client
+- State Management: useState, useEffect
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 API Integration
+
+This project uses the OpenWeatherMap API to fetch weather data.
+
+## Example API Request:
+```bash
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
+```
+- q → City name
+- appid → Your API key
+- units=metric → Temperature in Celsius
+
+---
+
+## ⚙️ Thunder Client Usage
+- Used Thunder Client (VS Code extension) to test API endpoints
+- Verified:
+- ✅ Correct API responses
+- ✅ JSON structure
+- ✅ Error handling (invalid city, wrong API key)
+
+This helped ensure smooth integration before implementing in React.
+
+---
+
+## ⚙️ Installation & Setup
+
+## Clone the repository:
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
+## Navigate to the project:
+```bash
+cd weather-app
+```
+## Install dependencies:
+```bash
+npm install
+```
+## Run the app:
+```bash
+npm run dev
+```
+
+---
+
+🌐 Live Demo
+
+👉 [Add your deployed link here]
+
+---
+
+## 💡 Learning Outcomes
+- Learned how to integrate external APIs using fetch
+- Practiced API testing using Thunder Client
+- Improved understanding of useEffect for data fetching
+- Handled asynchronous data and error states
+- Built a responsive UI with dynamic data
+
+---
