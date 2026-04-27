@@ -71,7 +71,7 @@ npm run dev
 
 🌐 Live Demo
 
-👉 [Add your deployed link here]
+👉 (https://weather-app-snowy-two-30.vercel.app/)
 
 ---
 
